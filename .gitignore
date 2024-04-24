@@ -1,0 +1,15 @@
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+.~SaaS Analysis__2214.twbr
+SaaS Analysis.twb
+header.png
+.~SaaS Analysis__17938.twbr
