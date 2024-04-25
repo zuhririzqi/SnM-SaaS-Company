@@ -86,3 +86,6 @@ please contact me or you can check out https://github.com/zuhririzqi/SnM-SaaS-Co
 
 ## Tableau
 You can also find the dashboard related to this analysis in this [link](https://public.tableau.com/app/profile/rizqi.rahmadani.zuhri.saputri/viz/SaaSAnalysis_17140247377000/DashGrow?publish=yes)
+
+## NBViewer
+Because github limitation the graph in notebook can't be view directly, you can view it directly in this [link](https://nbviewer.org/github/zuhririzqi/SnM-SaaS-Company/blob/main/notebook/SaaS%20Analysis.ipynb)
