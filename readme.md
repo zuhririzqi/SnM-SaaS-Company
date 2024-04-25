@@ -67,7 +67,8 @@ To get this project, you can clone it by running the following code:
 ##  Project Organization
 
 The directory structure of this project looks like this:
-        .
+
+
         ├── readme.md               -- The top-level README for developers using this project.
         ├── data
         │   ├── SaaS-Sales.csv      -- Original dataset
