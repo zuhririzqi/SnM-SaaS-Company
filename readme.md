@@ -14,9 +14,9 @@ SaaS works through the cloud delivery model. A software provider will either hos
 
 ## **Business Context and Task**
 
-Analyzing sales performance is crucial for businesse regardless of their scale. By understanding revenue-driving metrics, companies can make measurable decisions, from pricing, product development, marketing stategies etc. A company growth rate measures specific variables associated with growth over a specific period and is expressed as a percentage. The variables are industry-specific, meaning they differ from one company to another. Company growth rate formula can be applied to any metrics such as revenue, profit, user aqcuisition, and compound annual growth rates (CAGR). Different industries have different growth rates and benchmarks, the average of CAGR in revenue for Software (Sytem & Aplication) sector is 15,9% and for profit is 16,04% [link](https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histgr.html). 
+Analyzing sales performance is crucial for businesse regardless of their scale. By understanding revenue-driving metrics, companies can make measurable decisions, from pricing, product development, marketing stategies etc. A company growth rate measures specific variables associated with growth over a specific period and is expressed as a percentage. The variables are industry-specific, meaning they differ from one company to another. Company growth rate formula can be applied to any metrics such as revenue, profit, user aqcuisition, and compound annual growth rates (CAGR). Different industries have different growth rates and benchmarks, the average of CAGR in revenue for Software (System & Application) sector is 15,9% and for profit is 16,04% [link](https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histgr.html). 
 
-Another important metric for sales performance analysis is profit margins. Profit margins serves as essential indicator of a company's financial health and viability, it expressed as a percentage, represents the portion of a company’s sales revenue that it gets to keep as a profit, after subtracting all of its costs. Benchmark of profit margin for Software (Sytem & Aplication) sector is 19,14% [link](https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html). 
+Another important metric for sales performance analysis is profit margins. Profit margins serves as essential indicator of a company's financial health and viability, it expressed as a percentage, represents the portion of a company’s sales revenue that it gets to keep as a profit, after subtracting all of its costs. Benchmark of profit margin for Software (System & Application) sector is 19,14% [link](https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html). 
 
 
 The marketing manager ask data analyst team to provide analysis about company's growth and data supporting to enhance business growth.
@@ -36,9 +36,9 @@ After completing data analysis, there are some conclusion and reccomendation:
 
 #### **Conclusion**
 
-1. CAGR in sales and profit margins from 2020-2023 of SnM Company still below industry standart. Company should achive 1 million sales/year and increasing profit margin to 19% to achive the industry standart.
+1. CAGR in sales and profit margins from 2020-2023 of SnM Company still below industry standart. Company should achive 1 million sales/year and increasing profit margin to 19% to achive the industry standart, total customer stagnant from 2020-2023.
 2. Different region have their own top industry with highest CLV, but Contact Matcher and Support dominating as top product across the region and industry.
-3. Value of applied discount in the transaction played important rule to profit margin value. Products with more than 30% High Discount Group apllied from all transanction, has profit margins 3% to -3%.
+3. Value of applied discount in the transaction played important rule to profit margin value. Products with more than 30% High Discount Group apllied from all transaction, has profit margins 3% to -3%.
 
 
 #### **Recomendation**
@@ -47,7 +47,7 @@ To achive 1 million dollar sales in 2024 and increasing profit margins by 6% per
 
 1. **Sales**
     - Targeted and personalized promotion to customers with high CLV values based on industry. With the same marketing funds, instead of doing same marketing campaign to all of customer, targeted marketing expected to gain more sales, because higher CLV means higher expected sales.
-    - Developing some new feature especially top product (Contact Matcher and Support). Product developing some feature in top product will be more cost and time beneficial, instead of developing all product.
+    - Developing some new feature especially top product (Contact Matcher and Support). Developing some feature in top product will be more cost and time beneficial, instead of developing all product.
     - Try to expand market to gain new customer. There is no addition number of customer from 2020 to 2023, gaining new customer will help to improve sales.
 
 
@@ -80,7 +80,7 @@ The directory structure of this project looks like this:
 
 ## Contribute
 
-If you want to give some contribution for Dilling Report App improvement, 
+If you want to give some , 
 please contact me or you can check out https://github.com/zuhririzqi/SnM-SaaS-Company.git
 
 
