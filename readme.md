@@ -84,5 +84,5 @@ If you want to give some contribution for Dilling Report App improvement,
 please contact me or you can check out https://github.com/zuhririzqi/SnM-SaaS-Company.git
 
 
-## Tableu
+## Tableau
 You can also find the dashboard related to this analysis in this [link](https://public.tableau.com/app/profile/rizqi.rahmadani.zuhri.saputri/viz/SaaSAnalysis_17140247377000/DashGrow?publish=yes)
