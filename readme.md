@@ -14,33 +14,75 @@ SaaS works through the cloud delivery model. A software provider will either hos
 
 ## **Business Context and Task**
 
- Compounded Annual Growth Rates (CAGR) in revenue for Software (Sytem & Aplication) sector is 15,9% [link](https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histgr.html) and the profit margin is 19,14% [link](https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html) . The marketing manager ask data analyst team to provide analysist about company growth and factors that affected that can be used to plan and allocate resources.
+Analyzing sales performance is crucial for businesse regardless of their scale. By understanding revenue-driving metrics, companies can make measurable decisions, from pricing, product development, marketing stategies etc. A company growth rate measures specific variables associated with growth over a specific period and is expressed as a percentage. The variables are industry-specific, meaning they differ from one company to another. Company growth rate formula can be applied to any metrics such as revenue, profit, user aqcuisition, and compound annual growth rates (CAGR). Different industries have different growth rates and benchmarks, the average of CAGR in revenue for Software (Sytem & Aplication) sector is 15,9% and for profit is 16,04% [link](https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histgr.html). 
 
-To fulfill the goals we need to answer some quetions?
-1. How is company's growth?
+Another important metric for sales performance analysis is profit margins. Profit margins serves as essential indicator of a company's financial health and viability, it expressed as a percentage, represents the portion of a company’s sales revenue that it gets to keep as a profit, after subtracting all of its costs. Benchmark of profit margin for Software (Sytem & Aplication) sector is 19,14% [link](https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html). 
+
+
+The marketing manager ask data analyst team to provide analysis about company's growth and data supporting to enhance business growth.
+
+To fulfill the goals we need to answer some question?
+1. How is company sales performance and growth?
 2. Stategies to improve sales?
 3. Stategies to maximize profit margins?
+
+## **Data**
+---
+This analisys uses dataset that contains transaction data from a fictitious SaaS company selling sales and marketing software to other companies (B2B), here is the original database from [source](https://www.kaggle.com/datasets/nnthanh101/aws-saas-sales), you can also access this data in [link](https://github.com/zuhririzqi/SnM-SaaS-Company/blob/main/data/SaaS-Sales.csv).
+
+## **Conclusion and Recomendation**
+
+After completing data analysis, there are some conclusion and reccomendation:
+
+#### **Conclusion**
+
+1. CAGR in sales and profit margins from 2020-2023 of SnM Company still below industry standart. Company should achive 1 million sales/year and increasing profit margin to 19% to achive the industry standart.
+2. Different region have their own top industry with highest CLV, but Contact Matcher and Support dominating as top product across the region and industry.
+3. Value of applied discount in the transaction played important rule to profit margin value. Products with more than 30% High Discount Group apllied from all transanction, has profit margins 3% to -3%.
+
+
+#### **Recomendation**
+
+To achive 1 million dollar sales in 2024 and increasing profit margins by 6% per year, there are some actionable reccomendation based on the data:
+
+1. **Sales**
+    - Targeted and personalized promotion to customers with high CLV values based on industry. With the same marketing funds, instead of doing same marketing campaign to all of customer, targeted marketing expected to gain more sales, because higher CLV means higher expected sales.
+    - Developing some new feature especially top product (Contact Matcher and Support). Product developing some feature in top product will be more cost and time beneficial, instead of developing all product.
+    - Try to expand market to gain new customer. There is no addition number of customer from 2020 to 2023, gaining new customer will help to improve sales.
+
+
+2. **Profit Margins**
+    - Limiting discount applied to transaction.
+    - Evaluating strategies for pricing, valuing, and promoting products for Contact Matcher.
+    - Eliminating low-performing products (Big Ol Database and Marketing Suite)
+
 
 ## Instalastion
 
 To get this project, you can clone it by running the following code:
 
-    git clone git@github.com:zuhririzqi/Laporan-Pengeboran.git
+    git clone git@github.com:zuhririzqi/SnM-SaaS-Company.git
 
 
 ##  Project Organization
 
 The directory structure of this project looks like this:
-
-        ├── Readme.md               -- The top-level README for developers using this project.
-        ├── data                    -- Drilling Report Database
+        .
+        ├── readme.md               -- The top-level README for developers using this project.
+        ├── data
+        │   ├── SaaS-Sales.csv      -- Original dataset
+        │   ├── customer.xlsx       -- Data about customer lifetime value
+        │   └── data_clean.xlsx     -- Dataset that already cleaned
         ├── docs                    -- Detailed Presentation
-        ├── requirements.txt        -- The requirements file for reproducing the analysis environment
-        └── src                     -- Source code for this program
-            ├── dailyreport.py      -- Main program
-            └── task.py             -- Function codes
+        ├── notebook 
+        │   └── SaaS Analysis.ipynb -- Notebook containing data analysis
+        └── requirements.txt        -- The requirements file for reproducing the analysis environment
 
 ## Contribute
 
 If you want to give some contribution for Dilling Report App improvement, 
-please contact me or you can check out https://github.com/zuhririzqi/Laporan-Pengeboran.git
+please contact me or you can check out https://github.com/zuhririzqi/SnM-SaaS-Company.git
+
+
+## Tableu
+You can also find the dashboard related to this analysis in this [link]()
