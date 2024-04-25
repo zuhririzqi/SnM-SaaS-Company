@@ -80,8 +80,7 @@ The directory structure of this project looks like this:
 
 ## Contribute
 
-If you want to give some , 
-please contact me or you can check out https://github.com/zuhririzqi/SnM-SaaS-Company.git
+If you want to give some feedback please contact me on linkedIn [link](https://www.linkedin.com/in/rizqi-rahmadani-zuhri-saputri/)
 
 
 ## Tableau
